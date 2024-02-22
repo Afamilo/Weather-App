@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(102, 102, 243);
+    text-align: center;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(18, 13, 13);
+    padding: 30px;
+    margin-bottom: 40px;
+}
+img{
+    width: 70px;
+}
+h1{
+    font-size: 30PX;
+    font-weight: 900;
+    color: rgb(102, 102, 243);
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.search-result{
+    background-color: black;
+    border-radius: 2px;
+}
