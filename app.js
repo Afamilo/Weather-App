@@ -47,3 +47,13 @@ function setSearchResult(weatherData) {
   
   return { setSearchResult };
 }
+
+searchForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+});
+
+searchBTN.addEventListener("click", async () => {
+    if (search.value === "") return;
+    const weatherData = await weather.getData(search.value);
+    setSearchResult(weatherData);
+})
